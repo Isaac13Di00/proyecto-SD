@@ -42,6 +42,8 @@ public class ProductTableModel extends AbstractTableModel {
 			return producto.getNombre();
 		case 1:
 			return producto.getPrecio();
+		case 2:
+			return producto.get
 		default:
 			return null;
 		}
